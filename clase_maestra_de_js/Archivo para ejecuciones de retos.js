@@ -36,3 +36,4 @@ const canal = new Canal ('RollingStone', 'Music', 1432, 'https://www.twitch.tv/r
 canal.ir();
 
 let miVariable = 'Hola Mundo';
+let miNumero = 42;
