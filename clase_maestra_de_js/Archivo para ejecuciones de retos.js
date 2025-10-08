@@ -35,5 +35,3 @@ class Canal{
 const canal = new Canal ('RollingStone', 'Music', 1432, 'https://www.twitch.tv/rollingstone');
 canal.ir();
 
-let miVariable = 'Hola Mundo';
-let miNumero = 42;
