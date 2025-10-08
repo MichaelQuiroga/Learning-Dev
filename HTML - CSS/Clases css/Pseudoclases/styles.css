@@ -1,0 +1,36 @@
+h1{
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* Cuando se pasa por encima el cursor */
+
+h1:hover{
+    color: brown;
+    background-color: aliceblue;
+}
+
+/* Cuando se clickea el h1 */
+
+h1:active{
+    color:chartreuse;
+    background-color: aliceblue;
+}
+
+/* Seleccionando el primer elemento */
+li:first-child{
+    color: red;
+}
+
+/* Seleccionando el tercer elemento */
+
+li:nth-child(3){
+    color: green;
+}
+
+/* Seleccionando el último elemento */
+
+li:last-child{
+    color: blue;
+}

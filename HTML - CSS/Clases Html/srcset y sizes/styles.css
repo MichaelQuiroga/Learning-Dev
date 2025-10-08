@@ -1,0 +1,8 @@
+body{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div, body{
+    box-sizing: border-box;
+}

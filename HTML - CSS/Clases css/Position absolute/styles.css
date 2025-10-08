@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background: #ededed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+    background-color: #ccc;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #ca6;
+     color: #fff;
+}
+
+.box--blue{
+    background-color: #37d;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box--red{
+    background-color: #e53;
+}

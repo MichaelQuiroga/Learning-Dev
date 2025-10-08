@@ -1,0 +1,27 @@
+/* Es una herramienta que permite escribir códigos en caso de un navegador soporte o no una funcionalidad */
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@supports (color:oklch(30% 0.2 30)){
+    body{
+        color: oklch(80% 0.2 30);
+    }
+}
+
+@supports (display: grid){
+    body{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@supports not (display:grid){
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: transparent;
+    background-image: url("https://th.bing.com/th/id/OIP.WXOyi2RkWruFvwKiO-y6ewHaEK?rs=1&pid=ImgDetMain");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: #e1e4e5;
+}
+
+h1{
+    padding: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr{
+    border: none;
+    height: 20px;
+    margin: 0;
+}
+
+.galeria-de-colores{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1px;
+}
+
+.large-card{
+    grid-column: span 3;
+}
+
+div{
+    height: 70px;
+    color: transparent;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+div:hover{
+    color: gray;
+    transition: .3s color;
+    cursor: pointer;
+}

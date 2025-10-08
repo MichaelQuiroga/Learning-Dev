@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 3px solid black;
+    outline-width: 15px;
+    outline-color: green;
+    outline-style: dashed;
+    outline-offset: 5px;
+    outline: 15px solid pink ;
+}

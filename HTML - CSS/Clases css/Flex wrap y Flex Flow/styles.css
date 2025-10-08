@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.flex-item{
+    width: 400px;
+    height: 100px;
+    background: #a22;
+    margin: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-item:first-child{
+    background: #d56;
+}
+
+.flex-item:last-child{
+    background: black;
+}

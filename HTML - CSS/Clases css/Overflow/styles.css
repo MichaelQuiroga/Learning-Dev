@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.box{
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    left: 0;
+    overflow-y: scroll;
+}

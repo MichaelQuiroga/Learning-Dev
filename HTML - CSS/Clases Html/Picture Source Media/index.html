@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture,Source y Media</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <picture>
+        <source srcset="../img/software.webp" type="image/webp">
+      <source media="(max-width: 400px)" srcset="../img/software-small.jpg" />
+      <source media="(max-width: 600px)" srcset="../img/software-medium.jpg" />
+      <img src="../img/software.jpg" alt="Imagen de un desarrollador" />
+    </picture>
+  </body>
+</html>

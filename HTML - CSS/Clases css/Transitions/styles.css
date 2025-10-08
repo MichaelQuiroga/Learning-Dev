@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    transition-property: color, background-color;
+    transition: 1s;
+    transition-delay: 2s;
+    transition-timing-function: ease;
+    transition: color, 1s cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+.box:hover{
+    background-color: darkmagenta;
+    color: #fff;
+}

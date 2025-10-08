@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Enlaces anvanzados</title>
+</head>
+
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        <fieldset>
+            <legend>Datos basicos</legend>
+            <div class="form_input">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" placeholder="John Doe" id="nombre" />
+            </div>
+            <div class="form_input">
+                <label for="mail">Correo electronico</label>
+                <input type="email" placeholder="mail@mail.com" id="mail" />
+            </div>
+            <div class="form_input">
+                <label for="asunto">Asunto del mensaje</label>
+                <input type="text" placeholder="Quiero una pagina web" id="asunto" />
+            </div>
+        </fieldset>
+        <!-- Select & options -->
+        <div class="form_input">
+            <label for=""> Como supiste de nosotros?
+                <select name="encuesta" id="">
+                    <option value="1">Google</option>
+                    <option value="2">Redes sociales</option>
+                    <option value="3">Charlando</option>
+                </select>
+            </label>
+        </div>
+        <!-- Datalist & options -->
+        <div class="form_input">
+            <label for=""> Tipo de usuario:
+                <input list="Type_User">
+                <datalist name="encuesta" id="Type_User">
+                    <option>Cliente</option>
+                    <option>Interesado</option>
+                    <option>Developer</option>
+                    </select>
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="mensaje">Mensaje:</label>
+            <textarea placeholder="Deja tu mensaje" id="mensaje"></textarea>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" class="checkbox" />
+                Acepto los <a href="terms.html" target="_blank">terminos y condiciones</a>
+            </label>
+        </div>
+    </form>
+</body>
+
+</html>

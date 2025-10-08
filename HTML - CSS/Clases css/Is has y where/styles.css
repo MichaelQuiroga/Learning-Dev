@@ -1,0 +1,7 @@
+section :is(.elemento1, .elemento3, .elemento6){
+    color: blue;
+} 
+
+section :has(.elemento1){
+    background-color: aqua;
+}

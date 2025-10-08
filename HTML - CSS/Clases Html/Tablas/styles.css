@@ -1,0 +1,12 @@
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td{
+    color: #444;
+}
+table{
+    width: 100%;
+}
