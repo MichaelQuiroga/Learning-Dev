@@ -20,20 +20,24 @@
 
 // En este reto se crea una clase llamada "Canal" que tenga las propiedades "canal", "tipo", "espectadores" y "url". Además, se agrega un método llamado "ir" que imprima la URL del canal en la consola. Luego, se crea una instancia de la clase "Canal" con valores específicos y se llama al método "ir" para mostrar la URL en la consola.
 
-class Canal{
-    constructor(canal, tipo, espectadores, url){
-        this.canal = canal;
-        this.tipo = tipo;
-        this.espectadores = espectadores;
-        this.url = url;
-    }
-    ir(){
-        console.log(this.url);
-    }
-}
+// class Canal{
+//     constructor(canal, tipo, espectadores, url){
+//         this.canal = canal;
+//         this.tipo = tipo;
+//         this.espectadores = espectadores;
+//         this.url = url;
+//     }
+//     ir(){
+//         console.log(this.url);
+//     }
+// }
 
-const canal = new Canal ('RollingStone', 'Music', 1432, 'https://www.twitch.tv/rollingstone');
-canal.ir();
+// const canal = new Canal ('RollingStone', 'Music', 1432, 'https://www.twitch.tv/rollingstone');
+// canal.ir();
 
-let miVariable = 'Hola Mundo';
-let miNumero = 42;
+//----------------------------------------------------------------
+
+
+
+
+
